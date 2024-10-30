@@ -1,0 +1,133 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    padding: 10px;
+}
+
+.todo-app
+{
+    /*Width 100% + box-sizing: border box : It will also fits the element in available space including border, padding (margin will make it overflow the container).*/
+    max-width: 540px;
+    margin: 120px auto 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 50px 25px 50px;
+}
+
+.todo-app h1
+{
+    margin-bottom: 20px;
+}
+
+.row
+{
+    display: flex;
+    align-items: center; /* Centers along the  */
+    justify-content: space-between;
+    background-color: #edeef0;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.row-edit
+{
+    display: flex;
+    align-items: center; /* Centers along the  */
+    justify-content: space-between;
+    background-color: #edeef0;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+#editinput
+{
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+}
+
+input
+{
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-weight: 14px;
+    padding: 10px;
+}
+
+#addbutton{
+    border: none;
+    outline: none;
+    padding: 14px 30px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#removebutton
+{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+#editbutton
+{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: royalblue;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+#okbutton
+{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: royalblue;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+label{
+    flex: 2;
+}
