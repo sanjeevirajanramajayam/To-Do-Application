@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins";
+    text-wrap: wrap;
 }
 
 .main
@@ -84,6 +85,11 @@ input
     cursor: pointer;
 }
 
+#addbutton:hover{
+    background-color: #dd2902;
+    transition-duration: 0.5s;
+}
+
 .task{
     display: flex;
     justify-content: space-between;
@@ -101,6 +107,12 @@ input
     cursor: pointer;
     margin-bottom: 15px;
     display: inline-block;
+    onmouseover="this.title='';"
+}
+
+#removebutton:hover{
+    background-color: #dd2902;
+    transition-duration: 0.5s;
 }
 
 #editbutton
@@ -114,6 +126,12 @@ input
     cursor: pointer;
     margin-bottom: 15px;
     margin-left: 5px;
+    onmouseover="this.title='';"
+}
+
+#editbutton:hover{
+    background-color: #1e47c1;
+    transition-duration: 0.5s;
 }
 
 #okbutton
@@ -126,8 +144,17 @@ input
     border-radius: 40px;
     cursor: pointer;
     margin-left: 5px;
+    onmouseover="this.title='';"
+    max-width: 5px;
+}
+
+#okbutton:hover{
+    background-color: #1e47c1;
+    transition-duration: 0.5s;
 }
 
 label{
     flex: 2;
+    text-wrap: wrap;
+    word-wrap: wrap;
 }
