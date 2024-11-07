@@ -67,7 +67,6 @@ function AddTask()
 
                     else if (e.target.innerHTML === "Edit" && e.target.parentElement.title === "0")
                     {
-                        console.log(e.target);
                         const rowdiv = document.createElement("div");
                         rowdiv.setAttribute("class", "row");
 

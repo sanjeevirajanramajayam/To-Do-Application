@@ -107,7 +107,6 @@ input
     cursor: pointer;
     margin-bottom: 15px;
     display: inline-block;
-    onmouseover="this.title='';"
 }
 
 #removebutton:hover{
@@ -126,7 +125,6 @@ input
     cursor: pointer;
     margin-bottom: 15px;
     margin-left: 5px;
-    onmouseover="this.title='';"
 }
 
 #editbutton:hover{
@@ -144,8 +142,7 @@ input
     border-radius: 40px;
     cursor: pointer;
     margin-left: 5px;
-    onmouseover="this.title='';"
-    max-width: 5px;
+    max-width: 40px;
 }
 
 #okbutton:hover{

@@ -10,7 +10,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;  
-  width: fit-content;
+  min-width: 320px;
 }
 
 /* Hide the browser's default checkbox */
